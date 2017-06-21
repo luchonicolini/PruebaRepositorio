@@ -1,0 +1,6 @@
+framework module Pods_entregable_luciano {
+  umbrella header "Pods-entregable.luciano-umbrella.h"
+
+  export *
+  module * { export * }
+}

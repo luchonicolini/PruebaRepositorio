@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13A594761EF886CB0027B0A9 /* Model.File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A594751EF886CB0027B0A9 /* Model.File.swift */; };
+		13A5947A1EF889F10027B0A9 /* FotografiaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A594791EF889F10027B0A9 /* FotografiaTableViewController.swift */; };
+		13A5947D1EF88B410027B0A9 /* FotografiaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5947C1EF88B410027B0A9 /* FotografiaTableViewCell.swift */; };
+		13A594801EF88B780027B0A9 /* Dao.File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5947F1EF88B780027B0A9 /* Dao.File.swift */; };
+		13A594831EF88B890027B0A9 /* Service.File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A594821EF88B890027B0A9 /* Service.File.swift */; };
+		13AB330B1EF88045003ECE81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AB330A1EF88045003ECE81 /* AppDelegate.swift */; };
+		13AB330D1EF88045003ECE81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AB330C1EF88045003ECE81 /* ViewController.swift */; };
+		13AB33101EF88045003ECE81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AB330E1EF88045003ECE81 /* Main.storyboard */; };
+		13AB33121EF88045003ECE81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AB33111EF88045003ECE81 /* Assets.xcassets */; };
+		13AB33151EF88045003ECE81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AB33131EF88045003ECE81 /* LaunchScreen.storyboard */; };
+		D99EEF8B6C62D444B7B4AC43 /* Pods_entregable_luciano.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DAF7525DC3AC7553F45C91 /* Pods_entregable_luciano.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13A594751EF886CB0027B0A9 /* Model.File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.File.swift; sourceTree = "<group>"; };
+		13A594791EF889F10027B0A9 /* FotografiaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FotografiaTableViewController.swift; sourceTree = "<group>"; };
+		13A5947C1EF88B410027B0A9 /* FotografiaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FotografiaTableViewCell.swift; sourceTree = "<group>"; };
+		13A5947F1EF88B780027B0A9 /* Dao.File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dao.File.swift; sourceTree = "<group>"; };
+		13A594821EF88B890027B0A9 /* Service.File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.File.swift; sourceTree = "<group>"; };
+		13AB33071EF88045003ECE81 /* entregable.luciano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = entregable.luciano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13AB330A1EF88045003ECE81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13AB330C1EF88045003ECE81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13AB330F1EF88045003ECE81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13AB33111EF88045003ECE81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13AB33141EF88045003ECE81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13AB33161EF88045003ECE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B66E7118C64B9E4F6EE1AE7 /* Pods-entregable.luciano.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-entregable.luciano.debug.xcconfig"; path = "Pods/Target Support Files/Pods-entregable.luciano/Pods-entregable.luciano.debug.xcconfig"; sourceTree = "<group>"; };
+		A1B0C2282418F49EA8DB91CB /* Pods-entregable.luciano.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-entregable.luciano.release.xcconfig"; path = "Pods/Target Support Files/Pods-entregable.luciano/Pods-entregable.luciano.release.xcconfig"; sourceTree = "<group>"; };
+		B0DAF7525DC3AC7553F45C91 /* Pods_entregable_luciano.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_entregable_luciano.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13AB33041EF88045003ECE81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99EEF8B6C62D444B7B4AC43 /* Pods_entregable_luciano.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13A594771EF886D00027B0A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13A594751EF886CB0027B0A9 /* Model.File.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		13A594781EF887DE0027B0A9 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				13A594791EF889F10027B0A9 /* FotografiaTableViewController.swift */,
+				13AB330C1EF88045003ECE81 /* ViewController.swift */,
+			);
+			name = viewController;
+			sourceTree = "<group>";
+		};
+		13A5947B1EF88B0E0027B0A9 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				13AB33091EF88045003ECE81 /* entregable.luciano */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		13A5947E1EF88B470027B0A9 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				13A5947C1EF88B410027B0A9 /* FotografiaTableViewCell.swift */,
+			);
+			name = ViewCell;
+			sourceTree = "<group>";
+		};
+		13A594811EF88B7C0027B0A9 /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				13A5947F1EF88B780027B0A9 /* Dao.File.swift */,
+			);
+			name = Dao;
+			sourceTree = "<group>";
+		};
+		13A594841EF88B8F0027B0A9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				13A594821EF88B890027B0A9 /* Service.File.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		13AB32FE1EF88045003ECE81 = {
+			isa = PBXGroup;
+			children = (
+				13A5947B1EF88B0E0027B0A9 /* New Group */,
+				13AB33081EF88045003ECE81 /* Products */,
+				F12F455BAFE1CF399A54CF6F /* Pods */,
+				FA796413D69E09CA3FE831F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13AB33081EF88045003ECE81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13AB33071EF88045003ECE81 /* entregable.luciano.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13AB33091EF88045003ECE81 /* entregable.luciano */ = {
+			isa = PBXGroup;
+			children = (
+				13AB331D1EF882BC003ECE81 /* Nativos */,
+				13A5947E1EF88B470027B0A9 /* ViewCell */,
+				13A594781EF887DE0027B0A9 /* viewController */,
+				13AB331C1EF8824D003ECE81 /* Main */,
+				13A594771EF886D00027B0A9 /* Model */,
+				13A594811EF88B7C0027B0A9 /* Dao */,
+				13A594841EF88B8F0027B0A9 /* Service */,
+			);
+			path = entregable.luciano;
+			sourceTree = "<group>";
+		};
+		13AB331C1EF8824D003ECE81 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				13AB330A1EF88045003ECE81 /* AppDelegate.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		13AB331D1EF882BC003ECE81 /* Nativos */ = {
+			isa = PBXGroup;
+			children = (
+				13AB33111EF88045003ECE81 /* Assets.xcassets */,
+				13AB330E1EF88045003ECE81 /* Main.storyboard */,
+				13AB33131EF88045003ECE81 /* LaunchScreen.storyboard */,
+				13AB33161EF88045003ECE81 /* Info.plist */,
+			);
+			name = Nativos;
+			sourceTree = "<group>";
+		};
+		F12F455BAFE1CF399A54CF6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B66E7118C64B9E4F6EE1AE7 /* Pods-entregable.luciano.debug.xcconfig */,
+				A1B0C2282418F49EA8DB91CB /* Pods-entregable.luciano.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA796413D69E09CA3FE831F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0DAF7525DC3AC7553F45C91 /* Pods_entregable_luciano.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13AB33061EF88045003ECE81 /* entregable.luciano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13AB33191EF88045003ECE81 /* Build configuration list for PBXNativeTarget "entregable.luciano" */;
+			buildPhases = (
+				D52D32CFDFB2E16D8D6CEE61 /* [CP] Check Pods Manifest.lock */,
+				13AB33031EF88045003ECE81 /* Sources */,
+				13AB33041EF88045003ECE81 /* Frameworks */,
+				13AB33051EF88045003ECE81 /* Resources */,
+				E23CF5C7F9E985F881ABEB0C /* [CP] Embed Pods Frameworks */,
+				20540198831D688C86CB7C20 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = entregable.luciano;
+			productName = entregable.luciano;
+			productReference = 13AB33071EF88045003ECE81 /* entregable.luciano.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13AB32FF1EF88045003ECE81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = luciano.com;
+				TargetAttributes = {
+					13AB33061EF88045003ECE81 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 13AB33021EF88045003ECE81 /* Build configuration list for PBXProject "entregable.luciano" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13AB32FE1EF88045003ECE81;
+			productRefGroup = 13AB33081EF88045003ECE81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13AB33061EF88045003ECE81 /* entregable.luciano */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13AB33051EF88045003ECE81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AB33151EF88045003ECE81 /* LaunchScreen.storyboard in Resources */,
+				13AB33121EF88045003ECE81 /* Assets.xcassets in Resources */,
+				13AB33101EF88045003ECE81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20540198831D688C86CB7C20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-entregable.luciano/Pods-entregable.luciano-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D52D32CFDFB2E16D8D6CEE61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E23CF5C7F9E985F881ABEB0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-entregable.luciano/Pods-entregable.luciano-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13AB33031EF88045003ECE81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A594831EF88B890027B0A9 /* Service.File.swift in Sources */,
+				13AB330D1EF88045003ECE81 /* ViewController.swift in Sources */,
+				13A594801EF88B780027B0A9 /* Dao.File.swift in Sources */,
+				13A594761EF886CB0027B0A9 /* Model.File.swift in Sources */,
+				13AB330B1EF88045003ECE81 /* AppDelegate.swift in Sources */,
+				13A5947A1EF889F10027B0A9 /* FotografiaTableViewController.swift in Sources */,
+				13A5947D1EF88B410027B0A9 /* FotografiaTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13AB330E1EF88045003ECE81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13AB330F1EF88045003ECE81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13AB33131EF88045003ECE81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13AB33141EF88045003ECE81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13AB33171EF88045003ECE81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13AB33181EF88045003ECE81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13AB331A1EF88045003ECE81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B66E7118C64B9E4F6EE1AE7 /* Pods-entregable.luciano.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = entregable.luciano/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.valentin.entregable-luciano";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		13AB331B1EF88045003ECE81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B0C2282418F49EA8DB91CB /* Pods-entregable.luciano.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = entregable.luciano/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.valentin.entregable-luciano";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13AB33021EF88045003ECE81 /* Build configuration list for PBXProject "entregable.luciano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AB33171EF88045003ECE81 /* Debug */,
+				13AB33181EF88045003ECE81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13AB33191EF88045003ECE81 /* Build configuration list for PBXNativeTarget "entregable.luciano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AB331A1EF88045003ECE81 /* Debug */,
+				13AB331B1EF88045003ECE81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13AB32FF1EF88045003ECE81 /* Project object */;
+}
